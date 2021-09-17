@@ -5,7 +5,9 @@ class Logo extends Component {
     render() {
         return (
             <div className="logo-container">
-                <a href="https://github.com/jcsalinas20/pokedex-pokemon" ><img src={imgLogo} alt="logo" width="350" /></a>
+                <a href="https://github.com/jcsalinas20/pokedex-pokemon" target="_blank" rel="noreferrer" >
+                    <img src={imgLogo} alt="logo" width="350" />
+                </a>
             </div>
         );
     }

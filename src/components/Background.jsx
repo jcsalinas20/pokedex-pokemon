@@ -2,7 +2,11 @@ import React, { Component } from "react";
 
 class Background extends Component {
     render() {
-        return <div style={{backgroundImage: `url(${this.props.bg})`}} className="bg"></div>
+        if (!localStorage.getItem("bg")) {
+            localStorage.setItem("bg", 0)
+        }
+        let index = localStorage.getItem("bg");
+        return <div style={{ backgroundImage: `url(${this.props.bg[index]})` }} className="bg"></div>
     }
 }
 
