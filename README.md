@@ -6,4 +6,4 @@ The list is from the [PokeApi](https://pokeapi.co/) ([JSON List](https://pokeapi
 # Demo
  https://pokedex-zelldark.web.app/
 
-![pokedexIMG](http://imgfz.com/i/ST2zxhj.png)
+![pokedexIMG](https://raw.githubusercontent.com/jcsalinas20/pokedex-pokemon/main/images/index.png)
